@@ -14,7 +14,10 @@
 
 		<!-- p5js canvas-->
 		<script language="javascript" type="text/javascript" src="js/sketch.js"></script>
-		
+
+		<!-- Smooth Scroll-->
+		<script language="javascript" type="text/javascript" src="js/smoothScroll.js"></script>
+
 		<link rel="stylesheet" href="style.css">
 		<link href="jumbotron.css" rel="stylesheet">
 
@@ -35,18 +38,18 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-	          <a class="navbar-brand" href="#">BL</a>
+	          <a class="navbar-brand" href="#home">BL</a>
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
 		          <li>
-		          	<a href="#">Work</a>
+		          	<a href="#work">Work</a>
 		          </li>
 		          <li>
 		          	<a href="#">Blog</a>
 		          </li>		      
 		          <li>
-		          	<a href="#">Contact</a>
+		          	<a href="#contact">Contact</a>
 		          </li>		      		              
 	          </ul>
 
@@ -56,7 +59,7 @@
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div id="canvasContainer">
-			<div class="container">
+			<div class="container" id="home">
 				<div id="canvasText" class="container">
 					<h1>Hey, hi, hello, <br /> I'm Bryan.</h1>
 					<p>A seasoned designer with an appetite for development.</p>
@@ -65,7 +68,7 @@
 		</div>
 	
 
-		<div class="container-fluid">
+		<div class="container-fluid" id="work">
 		  <div class="row">
 			<!-- WanderWear Site Tile-->
 		    <div class="col-md-6">
@@ -100,7 +103,7 @@
 		</div>
 		 
 		<!-- Contact -->
-		<div class="jumbotron">
+		<div class="jumbotron" id="contact">
 		  <div class="container">
 		    <h2>Contact</h2>
 		    <p>byronLOHJY</p>
@@ -181,8 +184,6 @@
 		        Eternity
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		        <button type="button" class="btn btn-primary">Save changes</button>
 		      </div>
 		    </div>
 		  </div>

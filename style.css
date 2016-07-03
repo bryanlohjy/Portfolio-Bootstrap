@@ -1,10 +1,10 @@
 .navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.4);
 }
-
-li a{
+.navbar a{
 	color:white !important ;
 }
+
 
 #canvasContainer{
 	position:relative;
