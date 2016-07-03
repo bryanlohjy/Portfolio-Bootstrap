@@ -9,7 +9,7 @@
 #canvasText{ 
    position: absolute; 
    width: 100%; /* for IE 6 */
-   padding: 120px 0px 0px 300px;
+   padding: 120px 0px 0px 150px;
 }
 
 
