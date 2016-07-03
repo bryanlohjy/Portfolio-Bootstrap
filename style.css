@@ -2,14 +2,64 @@
    background: rgba(0,0,0,0.4);
 }
 
+li a{
+	color:white !important ;
+}
+
 #canvasContainer{
 	position:relative;
+	width:100%;
 }
 
 #canvasText{ 
-   position: absolute; 
-   width: 100%; /* for IE 6 */
-   padding: 120px 0px 0px 150px;
+	color: white;
+   	position: absolute; 
+   	padding: 120px 0px 0px 0px;
+   	margin:auto;
 }
 
+.jumbotron{
+	text-align: center;
+}
 
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.row div{
+		padding-left: 5%;
+		padding-right: 5%;
+	}        
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.row div{
+		padding-left: 5%;
+		padding-right: 5%;
+	}    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.row div{
+		padding-left: 5%;
+		padding-right: 5%;
+	}    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.row div{
+		padding-left: 5%;
+		padding-right: 5%;
+		height:300px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.row div{
+		padding-left: 5%;
+		padding-right: 5%;
+		height:300px;
+	}
+}
