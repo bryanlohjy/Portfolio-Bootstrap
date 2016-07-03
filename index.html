@@ -7,6 +7,13 @@
 
     	<!-- jQuery -->
 		<script src="js/jquery-3.0.0.min.js"></script>
+
+		<!-- p5js -->
+		<script language="javascript" type="text/javascript" src="js/p5.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/p5.dom.js"></script>
+
+		<!-- p5js canvas-->
+		<script language="javascript" type="text/javascript" src="js/sketch.js"></script>
 		
 		<link rel="stylesheet" href="style.css">
 		<link href="jumbotron.css" rel="stylesheet">
@@ -16,6 +23,8 @@
 	</head>
 
 	<body>
+
+
 		<!-- Navbar -->
 	    <nav class="navbar navbar-transparent navbar-fixed-top">
 	      <div class="container">
@@ -46,18 +55,18 @@
 	    </nav>
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron">
-		  <div class="container">
-		    <h1>Hey, hi, hello, I'm Bryan.</h1>
-		    <p>A seasoned designer with an appetite for development.</p>
-		    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-		  </div>
+		<div id="canvasContainer">
+			<div id="canvasText" class="container">
+				<h1>Hey, hi, hello, <br /> I'm Bryan.</h1>
+				<p>A seasoned designer with an appetite for development.</p>
+			</div>
 		</div>
+	
 
 		<div class="container">
 		  <div class="row">
 			<!-- WanderWear Site Tile-->
-		    <div class="col-md-6">
+		    <div id="wanderwear" class="col-md-6">
 		      <h2>WanderWear</h2>
 		      <p>A webapp which recommends comfortable clothing choices based on the current weather forecast.</p>
 		      <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#WanderWear">View details &raquo;</a></p>
@@ -97,12 +106,6 @@
 		  </div>
 		</div>		
 
-		<!-- Copyright -->
-		<div class="container">
-		  <footer>
-		    <p>&copy; 2015 Company, Inc.</p>
-		  </footer>
-		</div>
 		 <!-- /container -->
 
 		<!-- MODALS -->
