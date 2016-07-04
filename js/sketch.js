@@ -7,7 +7,7 @@ function setup(){
 
 function draw(){
 	push();
-	fill(80,20,200,30);
+	fill(255,255,255,30);
 	rect(0,0,width,height);
 	pop();
 
