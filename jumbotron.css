@@ -4,6 +4,11 @@
   padding-bottom: 20px;
 }*/
 .jumbotron {
-  padding-top: 50px;
-  padding-bottom: 20px;
+	padding:0px !important;
+	margin:50px 0px 0px 0px !important;
+	height:400px;
+}
+
+.jumbotron .container{
+	padding-top: 115px;
 }
