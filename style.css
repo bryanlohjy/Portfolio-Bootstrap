@@ -153,3 +153,13 @@ body, html {
 	border-radius: 10px;
 	padding:20px 20px;
 }
+
+
+/*modal fix*/
+.modal{
+	padding:0px !important;
+}
+
+.modal-open{
+	padding-right:0px !important;
+}
