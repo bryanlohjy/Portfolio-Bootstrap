@@ -1,5 +1,7 @@
 var stars = []
 
+var distFromCentre;
+
 var speed;
 
 function setup() {
@@ -10,7 +12,8 @@ function setup() {
 }
 
 function draw() {
-  speed = map(mouseX, 0, width, 0, 10);
+  distFromCentre = dist(mouseX, mouseY,width/2, height/2);
+  speed = map(distFromCentre, 0, width, 0, 20);
   background(255, 20);
   translate(width / 2, height / 2);
   for (var i = 0; i < stars.length; i++) {
